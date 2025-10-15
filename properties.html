@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Properties - M & J Clarke Properties</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+<body class="bg-gray-900 text-gray-200">
+
+    <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-indigo-400">M & J Clarke Properties</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html#home" class="text-gray-300 hover:text-indigo-400 transition duration-300">Home</a>
+                <a href="properties.html" class="text-indigo-400 font-semibold transition duration-300">Properties</a>
+                <a href="index.html#about" class="text-gray-300 hover:text-indigo-400 transition duration-300">About Us</a>
+                <a href="index.html#contact" class="bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="index.html#home" class="block py-2 text-gray-300 hover:text-indigo-400">Home</a>
+             <a href="properties.html" class="block py-2 text-indigo-400 font-semibold">Properties</a>
+            <a href="index.html#about" class="block py-2 text-gray-300 hover:text-indigo-400">About Us</a>
+            <a href="index.html#contact" class="block mt-2 bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 w-full text-center">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="properties" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                     <h1 class="text-4xl md:text-5xl font-bold text-white">Available Properties</h1>
+                     <p class="text-gray-400 mt-2">Browse our collection of high-quality rental homes.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1f2937/a78bfa?text=Property+1" alt="Property Image" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">Modern 2-Bedroom Flat</h3>
+                            <p class="text-gray-400 mb-4">Central London</p>
+                            <div class="flex items-center text-gray-400 space-x-4 mb-4">
+                                <span>Beds: 2</span>
+                                <span>Baths: 2</span>
+                            </div>
+                             <p class="text-gray-400 text-sm mb-6">A stunning flat with city views, perfect for professionals. Close to public transport and amenities.</p>
+                            <a href="#" class="block text-center bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1f2937/a78bfa?text=Property+2" alt="Property Image" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">Spacious Family House</h3>
+                            <p class="text-gray-400 mb-4">Manchester, UK</p>
+                             <div class="flex items-center text-gray-400 space-x-4 mb-4">
+                                <span>Beds: 4</span>
+                                <span>Baths: 3</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mb-6">Beautiful family home in a quiet suburb, featuring a spacious garden and modern kitchen.</p>
+                            <a href="#" class="block text-center bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1f2937/a78bfa?text=Property+3" alt="Property Image" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">Cosy Countryside Cottage</h3>
+                            <p class="text-gray-400 mb-4">The Cotswolds</p>
+                            <div class="flex items-center text-gray-400 space-x-4 mb-4">
+                                <span>Beds: 3</span>
+                                <span>Baths: 1</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mb-6">A charming cottage with original features, a fireplace, and a beautiful private garden.</p>
+                            <a href="#" class="block text-center bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">View Details</a>
+                        </div>
+                    </div>
+
+                     <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1f2937/a78bfa?text=Property+4" alt="Property Image" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">City Centre Studio</h3>
+                            <p class="text-gray-400 mb-4">Birmingham, UK</p>
+                             <div class="flex items-center text-gray-400 space-x-4 mb-4">
+                                <span>Beds: 1</span>
+                                <span>Baths: 1</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mb-6">Bright and modern studio apartment, fully furnished and located in the heart of the city.</p>
+                            <a href="#" class="block text-center bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">View Details</a>
+                        </div>
+                    </div>
+
+                     <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1f2937/a78bfa?text=Property+5" alt="Property Image" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">Seaside Apartment</h3>
+                            <p class="text-gray-400 mb-4">Brighton, UK</p>
+                            <div class="flex items-center text-gray-400 space-x-4 mb-4">
+                                <span>Beds: 2</span>
+                                <span>Baths: 1</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mb-6">Enjoy stunning sea views from this lovely two-bedroom apartment, just steps from the beach.</p>
+                            <a href="#" class="block text-center bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">View Details</a>
+                        </div>
+                    </div>
+
+                     <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1f2937/a78bfa?text=Property+6" alt="Property Image" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-white mb-2">Suburban Bungalow</h3>
+                            <p class="text-gray-400 mb-4">Edinburgh, Scotland</p>
+                             <div class="flex items-center text-gray-400 space-x-4 mb-4">
+                                <span>Beds: 3</span>
+                                <span>Baths: 2</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mb-6">A single-story home with a large driveway and accessible features, located in a peaceful neighbourhood.</p>
+                            <a href="#" class="block text-center bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">View Details</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 M & J Clarke Properties. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
